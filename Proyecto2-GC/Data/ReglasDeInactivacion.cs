@@ -3,7 +3,7 @@
 
 Public Function SeDebeInactivar(laFechaDeUltimaTransaccion As Date, laFechaActual As Date) As Boolean 
 
-Const losDiasPermitidosDeInactividad = 30 
+Const losDiasPermitidosDeInactividad = 60 
 Dim seInactiva As Boolean 
 Dim losDiasDeInactividad As Integer 
 
